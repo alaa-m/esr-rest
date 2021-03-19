@@ -1,0 +1,28 @@
+{
+  "name": "esr-rest",
+  "version": "1.0.0",
+  "description": "eosio signing request rest api",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [
+    "est",
+    "rest",
+    "api"
+  ],
+  "author": "Alaa Masalmeh",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eosio-signing-request": "^2.2.0",
+    "eosjs": "^21.0.3",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
