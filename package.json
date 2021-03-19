@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/server.js",
-    "build": "netlify-lambda build express"
   },
   "keywords": [
     "est",
@@ -21,7 +20,6 @@
     "eosio-signing-request": "^2.2.0",
     "eosjs": "^21.0.3",
     "express": "^4.17.1",
-    "netlify-lambda": "^2.0.3",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
