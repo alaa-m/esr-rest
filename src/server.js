@@ -2,7 +2,7 @@ const express = require('express')
 // Import the library:
 var cors = require('cors');
 
-const port = process.env.SERVER_PORT || 80
+const port = process.env.SERVER_PORT || 5000
 
 const app = express()
 var bodyParser = require('body-parser');
